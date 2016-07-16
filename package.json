@@ -1,0 +1,24 @@
+{
+  "name": "jquery-modal-as-module-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "brunch w -s",
+    "build:prod": "brunch b -p"
+  },
+  "author": "Jeremy",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.1.0",
+    "jquery-modal": "https://github.com/Cryde/jquery-modal/tarball/27c88ac3237f7d7167a8fb3acc1f21138cc0166b"
+  },
+  "devDependencies": {
+    "brunch": "^2.8.2",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.6.1",
+    "javascript-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.1"
+  }
+}
